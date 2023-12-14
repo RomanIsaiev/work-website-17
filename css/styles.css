@@ -49,7 +49,7 @@ p {
 
   background-image: url(../images/header-image-mobile-1x.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
