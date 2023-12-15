@@ -47,7 +47,7 @@ p {
   padding-top: 20px;
   padding-bottom: 50px;
 
-  background-image: url(../images/header-image-mobile-1x.jpg);
+  background-image: url(../images/header-image-mobile-2x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -57,7 +57,7 @@ p {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .header {
-    background-image: url(../images/header-image-mobile-2x.jpg);
+    background-image: url(../images/header-image-mobile-3x.jpg);
   }
 }
 
@@ -276,13 +276,13 @@ p {
   font-size: 12px;
   font-style: normal;
   font-weight: 450;
-  line-height: 108%;
+  line-height: 120%;
   text-transform: lowercase;
 }
 
 .sale-number span {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* section-zero */
@@ -296,12 +296,12 @@ p {
   color: #171717;
   text-align: center;
   font-family: Manrope;
-  font-size: 12px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
 
-  max-width: 136px;
+  max-width: 156px;
   margin-left: auto;
   margin-right: auto;
 
@@ -335,7 +335,7 @@ p {
   right: 0;
   bottom: 0;
   border-radius: 20px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   background: linear-gradient(180deg, #00b595, #ff3767) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
@@ -397,7 +397,7 @@ p {
 
   color: #00b595;
   text-align: center;
-  font-family: Futura PT;
+  font-family: Manrope;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -470,6 +470,8 @@ p {
   font-style: normal;
   font-weight: 800;
   line-height: 110%; /* 17.6px */
+
+  margin-bottom: 2px;
 }
 
 .one-list .list-item-text {
@@ -590,17 +592,25 @@ p {
   bottom: 260px;
   left: 50%;
 
+  display: block;
+
   max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
 
   transform: translate(-50%, -50%);
 }
 
 .emojies-line-two {
   position: absolute;
-  bottom: 50px;
+  bottom: 40px;
   left: 50%;
 
+  display: block;
+
   max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
 
   transform: translate(-50%, -50%);
 }
@@ -1094,6 +1104,8 @@ p {
 table {
   table-layout: fixed;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   border-collapse: collapse;
   border-radius: 20px;
 }
@@ -1400,7 +1412,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
   display: block;
   color: #00b595;
   text-align: center;
-  font-family: Futura PT;
+  font-family: Manrope;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
