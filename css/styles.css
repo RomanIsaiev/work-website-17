@@ -173,6 +173,118 @@ p {
   line-height: 120%; /* 15.6px */
 }
 
+/* header-sale-mark-pink */
+
+.header-sale-mark {
+  position: absolute;
+  top: 391px;
+  right: 10px;
+}
+
+.sale-mark {
+  position: relative;
+
+  -webkit-animation-name: rotation;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotation;
+  -moz-animation-duration: 15s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: rotation;
+  -o-animation-duration: 15s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+  animation-name: rotation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.sale-number {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 108%;
+  text-transform: lowercase;
+}
+
+.sale-number span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 /* section-zero */
 
 .section-zero {
@@ -207,6 +319,12 @@ p {
   width: 100%;
 
   padding: 20px;
+}
+
+.bonus-wrapper-gift {
+  position: absolute;
+  top: -20px;
+  right: 30px;
 }
 
 .bonus-wrapper::before {
@@ -676,11 +794,19 @@ p {
 }
 
 .section-three .wrapper-one {
+  position: relative;
+
   padding: 24px 15px;
   border-radius: 30px;
   background: #fff;
 
   margin-bottom: 80px;
+}
+
+.wrapper-one-gift {
+  position: absolute;
+  bottom: -25px;
+  right: 20px;
 }
 
 .section-three .wrapper-one .wrapper-title {
@@ -939,6 +1065,17 @@ p {
   line-height: 120%; /* 18px */
 
   margin-bottom: 78px;
+
+  padding: 0 20px 0 20px;
+
+  /* max-width: 251px;
+  margin-left: auto;
+  margin-right: auto; */
+
+  background-image: url(../images/sect-one-gift-mobile-1x.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: top 10px left 5px;
 }
 
 .three-text-four span {
@@ -1082,10 +1219,122 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 
 .button-container {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
+.header-sale-mark-pink {
+  position: absolute;
+  top: 18px;
+  right: -20px;
+}
+
+.sale-mark-buttons {
+  position: relative;
+
+  -webkit-animation-name: rotation;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotation;
+  -moz-animation-duration: 15s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: rotation;
+  -o-animation-duration: 15s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+  animation-name: rotation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* .sale-number {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 108%;
+  text-transform: lowercase;
+}
+
+.sale-number span {
+  font-size: 18px;
+  font-weight: 600;
+} */
 
 .optimal-button {
   color: var(--white, #f6f6f6);
