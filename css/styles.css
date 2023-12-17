@@ -41,6 +41,12 @@ p {
   max-width: 360px;
 }
 
+@media screen and (min-width: 768px) {
+  /* .container {
+    max-width: 768px;
+  } */
+}
+
 /* header */
 
 .header {
@@ -171,6 +177,20 @@ p {
   font-style: normal;
   font-weight: 700;
   line-height: 120%; /* 15.6px */
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-image: url(../images/header-image-tablet-2x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .header {
+      background-image: url(../images/header-image-tablet-2x.jpg);
+    }
+  }
 }
 
 /* header-sale-mark-pink */
@@ -558,6 +578,7 @@ p {
   left: 0;
 
   width: 100%;
+  height: auto;
 
   padding: 10px;
   background: #fff;
@@ -613,6 +634,36 @@ p {
   margin-right: auto;
 
   transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 768px) {
+  .emojies-line-one {
+    position: absolute;
+    bottom: 260px;
+    left: 50%;
+
+    display: block;
+
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: translate(-50%, -50%);
+  }
+
+  .emojies-line-two {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+
+    display: block;
+
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: translate(-50%, -50%);
+  }
 }
 
 /* section-two */
@@ -1078,10 +1129,6 @@ p {
 
   padding: 0 20px 0 20px;
 
-  /* max-width: 251px;
-  margin-left: auto;
-  margin-right: auto; */
-
   background-image: url(../images/sect-one-gift-mobile-1x.png);
   background-repeat: no-repeat;
   background-size: 30px;
@@ -1090,6 +1137,20 @@ p {
 
 .three-text-four span {
   font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .section-three {
+    background-image: url(../images/section-three-background-tablet-1x.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-three {
+      background-image: url(../images/section-three-background-tablet-2x.jpg);
+    }
+  }
 }
 
 /* table */
