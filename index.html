@@ -178,6 +178,14 @@
           <picture
             ><source
               srcset="
+                ./images/emojies-line-desktop-1x.png 1x,
+                ./images/emojies-line-desktop-2x.png 2x
+              "
+              media="(min-width: 1280px)"
+              width="100%"
+              height="58" />
+            <source
+              srcset="
                 ./images/emojies-line-tablet-1x.png 1x,
                 ./images/emojies-line-tablet-2x.png 2x
               "
@@ -218,6 +226,14 @@
           <picture
             ><source
               srcset="
+                ./images/emojies-line-desktop-1x.png 1x,
+                ./images/emojies-line-desktop-2x.png 2x
+              "
+              media="(min-width: 1280px)"
+              width="100%"
+              height="58" />
+            <source
+              srcset="
                 ./images/emojies-line-tablet-1x.png 1x,
                 ./images/emojies-line-tablet-2x.png 2x
               "
@@ -244,80 +260,114 @@
       <section class="section-two">
         <div class="container">
           <h2 class="sect-two-title">Про автора</h2>
-          <picture
-            ><source
-              srcset="
-                ./images/author-images-mobile-1x.png 1x,
-                ./images/author-images-mobile-2x.png 2x
-              "
-              media="(min-width: 320px)"
-              width="320"
-              height="320" />
-            <img
-              class="author-image"
-              src="./images/author-images-mobile-1x.png"
-              alt="Наталія Сентімрей"
-              width="320"
-              height="320"
-          /></picture>
-          <h3 class="author-name">Наталія Сентімрей</h3>
-          <p class="author-age">43 роки</p>
-          <ul class="author-list list">
-            <li class="list-item">
-              Успішна бізнес вумен, щаслива дружина, любляча мама двох найкращих
-              і таких різних дітей та молода бабуся
-            </li>
-            <li class="list-item">Власниця конкурсу краси Міс Закарпаття </li>
-            <li class="list-item">
-              Переможниця Європейського конкурсу краси Mrs.Transcontinetal 2023
-            </li>
-            <li class="list-item">
-              Переможниця Світового конкурсу краси Mrs.Transcontinental 2024
-            </li>
-            <li class="list-item">
-              Організатор багатьох різноманітних благодійних ініціатив: забіги,
-              аукціони, збори коштів. Успішна бізнес леді, яка своїм прикладом
-              мотивує жінок до саморозвитку вчить не боятися змін і приймати
-              життєві виклики та трансформувати їх у потрібне і позитивне русло
-            </li>
-            <li class="list-item">
-              Обожнюю спорт, присвячую себе саморозвитку, приймаю сміливі
-              рішення та йду на пролом
-            </li>
-          </ul>
+          <div class="author-flex-container">
+            <div class="author-image-container">
+              <picture
+                ><source
+                  srcset="
+                    ./images/author-images-desktop-1x.png 1x,
+                    ./images/author-images-desktop-2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                  width="458"
+                  height="458" />
+                <source
+                  srcset="
+                    ./images/author-images-mobile-1x.png 1x,
+                    ./images/author-images-mobile-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="320"
+                  height="320" />
+                <img
+                  class="author-image"
+                  src="./images/author-images-mobile-1x.png"
+                  alt="Наталія Сентімрей"
+                  width="320"
+                  height="320"
+              /></picture>
+            </div>
+            <div class="author-info-container">
+              <h3 class="author-name">Наталія Сентімрей</h3>
+              <p class="author-age">43 роки</p>
+              <ul class="author-list list">
+                <li class="list-item">
+                  Успішна бізнес вумен, щаслива дружина, любляча мама двох
+                  найкращих і таких різних дітей та молода бабуся
+                </li>
+                <li class="list-item">
+                  Власниця конкурсу краси Міс Закарпаття 
+                </li>
+                <li class="list-item">
+                  Переможниця Європейського конкурсу краси Mrs.Transcontinetal
+                  2023
+                </li>
+                <li class="list-item">
+                  Переможниця Світового конкурсу краси Mrs.Transcontinental 2024
+                </li>
+                <li class="list-item">
+                  Організатор багатьох різноманітних благодійних ініціатив:
+                  забіги, аукціони, збори коштів. Успішна бізнес леді, яка своїм
+                  прикладом мотивує жінок до саморозвитку вчить не боятися змін
+                  і приймати життєві виклики та трансформувати їх у потрібне і
+                  позитивне русло
+                </li>
+                <li class="list-item">
+                  Обожнюю спорт, присвячую себе саморозвитку, приймаю сміливі
+                  рішення та йду на пролом
+                </li>
+              </ul>
+            </div>
+          </div>
           <h2 class="course-coach-title">Тренер курсу</h2>
-          <picture
-            ><source
-              srcset="
-                ./images/coach-images-mobile-1x.png 1x,
-                ./images/coach-images-mobile-2x.png 2x
-              "
-              media="(min-width: 320px)"
-              width="320"
-              height="320" />
-            <img
-              class="coach-image"
-              src="./images/coach-images-mobile-1x.png"
-              alt="Марія Сентімрей"
-              width="320"
-              height="320"
-          /></picture>
-          <h3 class="coach-name">Марія Сентімрей</h3>
-          <ul class="coach-list list">
-            <li class="list-item">
-              Сертифікований тренер у різних напрямках фітнесу і має
-              багаторічний досвід роботи з дорослими та дітьми
-            </li>
-            <li class="list-item">
-              Тренує протягом останніх 5 років, 10 років у професійному спорті,
-              зокрема у художній гімнастиці, де була частиною збірної
-            </li>
-            <li class="list-item">
-              Інструктор з таких напрямків, як Stretching, pilates, high heels
-              dance, twerk. Cпеціалізується в роботі з вагітними жінками та
-              після пологів, пропонуючи унікальні програми тренувань
-            </li>
-          </ul>
+          <div class="coach-flex-container">
+            <div class="coach-image-container">
+              <picture
+                ><source
+                  srcset="
+                    ./images/coach-images-desktop-1x.png 1x,
+                    ./images/coach-images-desktop-2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                  width="335"
+                  height="335" />
+                <source
+                  srcset="
+                    ./images/coach-images-mobile-1x.png 1x,
+                    ./images/coach-images-mobile-2x.png 2x
+                  "
+                  media="(min-width: 320px)"
+                  width="320"
+                  height="320" />
+                <img
+                  class="coach-image"
+                  src="./images/coach-images-mobile-1x.png"
+                  alt="Марія Сентімрей"
+                  width="320"
+                  height="320"
+              /></picture>
+            </div>
+            <div class="coach-info-container">
+              <h3 class="coach-name">Марія Сентімрей</h3>
+              <ul class="coach-list list">
+                <li class="list-item">
+                  Сертифікований тренер у різних напрямках фітнесу і має
+                  багаторічний досвід роботи з дорослими та дітьми
+                </li>
+                <li class="list-item">
+                  Тренує протягом останніх 5 років, 10 років у професійному
+                  спорті, зокрема у художній гімнастиці, де була частиною
+                  збірної
+                </li>
+                <li class="list-item">
+                  Інструктор з таких напрямків, як Stretching, pilates, high
+                  heels dance, twerk. Cпеціалізується в роботі з вагітними
+                  жінками та після пологів, пропонуючи унікальні програми
+                  тренувань
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
       <section class="section-three">
@@ -509,6 +559,14 @@
           </div>
           <picture
             ><source
+              srcset="
+                ./images/author-photo-desktop-1x.png 1x,
+                ./images/author-photo-desktop-2x.png 2x
+              "
+              media="(min-width: 1280px)"
+              width="399"
+              height="568" />
+            <source
               srcset="
                 ./images/author-photo-mobile-1x.png 1x,
                 ./images/author-photo-mobile-2x.png 2x
