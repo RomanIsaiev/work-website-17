@@ -2200,6 +2200,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
   .content p {
     font-size: 16px;
+    max-width: 350px;
   }
 
   .question-name > p {
