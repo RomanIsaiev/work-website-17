@@ -29,7 +29,7 @@
             народження</span
           >
         </p>
-        <a class="archor-link link" href="">Детальніше</a>
+        <a class="archor-link link" href="#pro-course">Детальніше</a>
         <p class="header-additional-text">
           Відкрий свою природну красу та силу, пройшовши курс “Ти  Можеш”
         </p>
@@ -373,7 +373,7 @@
       <section class="section-three">
         <div class="container">
           <div class="wrapper-one">
-            <h3 class="wrapper-title">Про курс</h3>
+            <h3 class="wrapper-title" id="pro-course">Про курс</h3>
             <p class="wrapper-text-one">
               Два тижні повної трансформації свого життя до кращої версії себе 
             </p>
@@ -488,8 +488,13 @@
             </p>
           </div>
           <div class="button-container">
-            <button class="optimal-button">хочу оптимальний</button>
-            <button class="premium-button">хочу преміум</button>
+            <button class="optimal-button" data-modal-open-one>
+              хочу оптимальний
+            </button>
+            <button class="premium-button" data-modal-open-two>
+              хочу преміум
+            </button>
+
             <div class="header-sale-mark-pink">
               <picture
                 ><source
@@ -638,8 +643,12 @@
             </li>
           </ul>
           <div class="button-container">
-            <button class="optimal-button">хочу оптимальний</button>
-            <button class="premium-button">хочу преміум</button>
+            <button class="optimal-button" data-modal-open-one>
+              хочу оптимальний
+            </button>
+            <button class="premium-button" data-modal-open-two>
+              хочу преміум
+            </button>
             <div class="header-sale-mark-pink">
               <picture
                 ><source
@@ -841,9 +850,47 @@
         >
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal1>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close1>
+          <img
+            src="./images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1703571943"></div>
+      </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal2>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close2>
+          <img
+            src="./images/close-modal-icon.svg"
+            width="30"
+            height="30"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1703571924"></div>
+      </div>
+    </div>
+
     <script src="./js/jquery-3.7.0.min.js" type="module"></script>
     <script src="./js/faq.js" type="module"></script>
     <script src="./js/timer.js" type="module"></script>
     <script src="./js/js-modal.js" type="module"></script>
+    <script src="./js/scroll.js" type="module"></script>
+    <!-- optimal -->
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1703571943&uuid=987d2299-e872-4246-9649-6e967bf38df1&producer=https://kwiga.com/"
+    ></script>
+    <!-- prem -->
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1703571924&uuid=4c457dfe-e61a-4d01-ab28-db1dbcc75914&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
