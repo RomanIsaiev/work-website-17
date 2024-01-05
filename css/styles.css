@@ -428,7 +428,7 @@ p {
   border-radius: 20px;
   border: 1px solid transparent;
   background: linear-gradient(180deg, #00b595, #ff3767) border-box;
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
