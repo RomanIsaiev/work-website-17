@@ -1504,6 +1504,7 @@ p {
   border-radius: 20px;
 
   max-width: 320px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
@@ -1589,6 +1590,10 @@ tbody tr:nth-child(2) {
 
 tbody tr:nth-child(3) td:nth-child(1) {
   font-weight: 700;
+}
+
+tbody tr:nth-child(3) td:nth-child(1) span {
+  font-weight: 400;
 }
 
 .table-old-price {
